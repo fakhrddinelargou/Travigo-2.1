@@ -1,0 +1,230 @@
+.contact-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+main {
+    width: 85%;
+    max-width: 90%;
+    display: flex;
+    gap: 16rem;
+    margin-bottom: 10rem;
+}
+
+main .form h3 {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 4.8rem;
+    color: var(--dark-blue-1);
+    text-align: center;
+    padding-bottom: 6.2rem;
+}
+
+.form {
+
+    width: 70%;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sendUs {
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: var(--dark-blue);
+    padding-bottom: 4.5rem;
+}
+
+.denot {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: -.2rem;
+    color: var(--dark-blue);
+    padding-bottom: 6rem;
+
+}
+
+input {
+    width: 100%;
+    outline: none;
+}
+
+#name,
+#email {
+    border: none;
+    border-bottom: solid .2rem var(--gray);
+    font-size: 1.6rem;
+    padding: .6rem 0;
+    margin-bottom: 6rem;
+}
+
+.mssg-title {
+    color: gray;
+    font-size: 1.6rem;
+    padding-bottom: .6rem;
+}
+
+label:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    /* resize: none; */
+    /* background: #000; */
+}
+
+textarea {
+    border: solid .2rem var(--gray);
+    border-radius: .3rem;
+    /* background: #000; */
+    margin-bottom: 1.6rem;
+
+}
+
+.social-icon {
+    box-shadow: 0 0 .5rem .1rem rgba(154, 154, 154, 0.225);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+.social-link {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding-bottom: 4rem;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.social-link p {
+    font-size: 2rem;
+}
+
+.social-icon svg {
+    width: 2rem;
+}
+
+.stores {
+    display: flex;
+    gap: 0.7rem;
+}
+
+/* contact */
+.contact {
+    /* background: #000; */
+    width: 30%;
+}
+
+.contact div h4 {
+    font-size: 3.2rem;
+    color: var(--dark-blue-1);
+    font-weight: 400;
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+    padding-bottom: 2.4rem;
+}
+
+.contact div p {
+    color: #808080;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding-bottom: 4rem;
+    line-height: 1.7;
+
+}
+
+.app {
+
+    color: var(--paragraph-color) !important;
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+
+}
+
+form .btn {
+    background-color: var(--dark-blue);
+    height: 3.8rem;
+    width: 14.9rem;
+    border: none;
+    border-radius: .4rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+
+
+
+    main {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 16rem;
+        margin-bottom: 10rem;
+    }
+
+    .form {
+
+        width: 100%;
+
+
+    }
+
+    .contact {
+        /* background: #000; */
+        width: 30%;
+    }
+
+    .contact {
+
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 360px) {}

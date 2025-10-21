@@ -1,0 +1,378 @@
+/* header{
+    background-image: url(/images/Decore.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+
+} */
+
+.destination-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+/* destinaction morocco */
+
+.mar-place span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.mar-place .place p {
+    color: var(--paragraph-color);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.mar-place {
+ 
+    max-width: 90%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5.6rem;
+
+}
+
+.mar-place .place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    place-items: center;
+    z-index: -1;
+}
+
+.mar-place .place .bg-img {
+    position: relative;
+    width: 45rem;
+
+    height: 67.3rem;
+    display: flex;
+    align-items: end;
+
+}
+
+.mar-place h2 {
+
+
+    text-align: center;
+}
+
+.mar-place .place div img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+
+}
+
+.mar-place .place .bg-img div {
+    padding-left: 2rem;
+    padding-bottom: 2.7rem;
+}
+
+
+/* SETCION TOP DESTINATIONS */
+
+
+.td {
+    min-width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.td h2 {
+    padding-bottom: 3.2rem;
+}
+
+.td .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3.5rem;
+}
+
+.card-p {
+    border-radius: 2.5rem;
+    overflow: hidden;
+    position: relative;
+    width: 32rem;
+    height: 41rem;
+    display: flex;
+    align-items: end;
+    box-shadow: 0 2rem 1rem .5rem rgba(186, 186, 186, 0.079);
+    border: solid .1rem rgba(225, 224, 224, 0.467);
+    transition: .3s;
+
+}
+
+.td .card-p:hover {
+    transform: scale(1.05);
+}
+
+.card-p .bg-img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.card-p .options {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 12rem;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 2.5rem 2rem;
+
+}
+
+.card-p .options .namePlace {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-p .options .namePlace p {
+    font-size: 1.8rem;
+    color: var(--paragraph-color);
+
+}
+
+.card-p .options .moment {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--paragraph-color);
+    font-weight: 400;
+}
+
+.card-p .options .moment span img {
+    padding-top: .8rem;
+}
+
+
+/* container book */
+.container-book {
+    
+    min-width: 90%;
+  
+    display: flex;
+    justify-content: center;
+    /* gap: 10rem; */
+ 
+}
+
+.book h2 {
+    width: 60%;
+    max-width: 95%;
+    padding-bottom: 3.1rem;
+
+}
+
+.book .opts {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+
+
+}
+
+
+
+.book .opt {
+
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 2.1rem;
+    font-size: 1.6rem;
+    color: var(--paragraph-color);
+
+}
+
+.book .opt h4 {
+    font-weight: bold;
+    display: inline;
+
+}
+
+.book .opt p {
+    width: 100%;
+}
+
+.card-2 {
+    position: relative;
+   
+}
+
+.card-position {
+    position: absolute;
+    top: 6rem;
+    left: 6rem;
+    z-index: 999999;
+}
+
+.s-blue {
+    position: absolute;
+    top: -10rem;
+    right: -10rem;
+    z-index: -9;
+
+    width: 30rem;
+
+}
+
+.sTit {
+    color: var(--paragraph-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+
+}
+
+
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+
+    .mar-place .place {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .td .cards {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+
+    .book h2 {
+        width: 100%;
+
+
+    }
+
+    .container-book {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10rem;
+        
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 600px) {
+    .td .cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .mar-place .place div img {
+        width: 100%;
+    }
+
+    .card-position {
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+    }
+
+    .card-2 {
+        position: relative;
+    }
+
+.s-blue {
+    position: absolute;
+    top: -10rem;
+    right: 0;
+    z-index: -9;
+    width: 30rem;
+
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book .opts {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+
+max-width: 90%;
+}
+.mar-place .place {
+   width: 100%;
+
+    
+}
+
+.mar-place .place .bg-img {
+   
+    width: 100%;
+
+}
+.card-2 {
+
+   padding-right: 3rem;
+}
+
+
+h2{
+    font-size: 4rem !important;
+  text-align: center;
+}
+}
+
+@media (max-width: 360px) {
+    .book {
+
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .container-book {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10rem;
+        
+        margin: auto;
+    }
+}

@@ -1,0 +1,427 @@
+/* 
+POPPINS :
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+  -------------------------------------
+
+LEXEND : 
+
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+  -------------------------------------
+
+VOLKHOV : 
+
+ font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  -------------------------------------
+
+  OPEN SANS : 
+
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  -------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+       list-style: none;
+}
+html{
+    font-size: 62.5%;
+ 
+}
+
+:root{
+
+
+--dark-blue : #212832;
+--dark-orange : #DF6951;
+--dark-blue-1 : #181E4B ;
+--paragraph-color : #5E6282;
+--yellow : #F1A501;
+--gray:#686D77;
+--h2 : 5rem;
+
+}
+
+body{
+
+           font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 15rem; */
+    background: white;
+}
+
+h2{
+  font-size: var(--h2);
+  font-weight: bold;
+    font-family: "Volkhov", serif;
+    color: var(--dark-blue-1);
+}
+
+
+header{
+    /* background-image: url(/images/Decore.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+
+}
+
+/* HEAD */
+
+.head {
+    /* padding-top: 4rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 10vh;
+    /* background: #000; */
+}
+
+.logo {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.6rem;
+}
+
+.navbar .links {
+    display: flex;
+    align-items: center;
+    font-size: 1.53rem;
+    gap: 5.6rem;
+}
+
+.navbar .links a,
+button {
+    text-decoration: none;
+    color: var(--dark-blue);
+    cursor: pointer;
+}
+
+.navbar .links a{
+   
+    padding: .5rem 2rem;
+    border-radius: .5rem 3rem;
+    transition: .2s;
+}
+.navbar .links a:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.navbar .links .btn-login {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background: none;
+    border: none;
+    border-bottom: .2rem solid transparent;
+ transition: .2s;
+
+}
+
+.navbar .links .btn-login:hover{
+    border-bottom: .2rem solid black;
+    color: var(--dark-blue);
+} 
+
+
+.navbar .links .btn-sign {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background: none;
+    border: solid .1rem var(--dark-blue);
+    padding: .3rem 1rem;
+    border-radius: .3rem;
+    text-align: center;
+  transition: .2s;
+}
+
+.navbar .links .btn-sign:hover{
+    background-color: rgba(149, 149, 149, 0.1);
+    border: solid .1rem rgba(149, 149, 149, 0.1) ;
+}
+
+/* FOOTER */
+footer{
+    /* border: solid; */
+    width: 100%;
+     font-family: "Poppins", sans-serif;
+     font-style: normal;
+     /* background: #000; */
+     height: 50vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 10rem;
+     position: relative;
+    }
+    footer .contacts{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      
+    }
+  
+    footer .contacts .contact-about div{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    footer p{
+        color: var(--paragraph-color);
+        /* background-color: aliceblue; */
+    }
+    .logo-para{
+        /* background: #000; */
+        width:68%;
+        /* margin-bottom: 4rem; */
+        margin-top: -1.7rem;
+        
+    }
+    
+    .logo-para h3{
+        font-size: 4.4rem;
+        font-weight: 500;
+        color: var(--dark-blue-1);
+        /* background-color: #FFF1DA; */
+        
+        display: inline;
+    }
+    .logo-para p{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    /* width: 65%; */
+}
+
+.contact-about h4{
+    padding-bottom: 3.4rem;
+    font-size: 2.1rem;
+}
+.contact-about p{
+    font-size: 1.8rem;
+}
+
+footer .social-icon{
+box-shadow: 0 0 .5rem .1rem rgba(154, 154, 154, 0.225);
+    background-color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 4.5rem;
+ height: 4.5rem;
+ border-radius: 50%;
+}
+footer .social-link{
+    display: flex;
+    flex-direction: column;
+   gap: 1.6rem;
+}
+footer .social{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.social-link p{
+font-size: 2rem;
+}
+footer .social-icon svg{
+    width: 2rem;
+}
+footer .stores{
+    display: flex;
+    gap: 0.7rem;
+}
+footer .shadow-d{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+footer .copyright{
+    font-size: 1.4rem;
+      color: var(--paragraph-color);
+}
+
+.hidden{
+    display: none;
+}
+.menu{
+    position: absolute;
+    right:  1.5rem;
+    top: .5rem;
+width: 5rem;
+height: 5rem;
+position: relative;
+display: none;
+z-index: 99999;
+}
+.menu div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4rem;
+    height: 4rem;
+}
+
+
+@media (max-width: 1400px){
+.navbar .links {
+    gap: 4rem;
+}
+
+}
+@media (max-width: 1200px){
+ 
+.navbar .links {
+    gap: 2.6rem;
+}
+
+}
+@media (max-width: 992px){
+    .navbar  {
+
+     background: white;
+     box-shadow: 0 0 .5rem .2rem rgba(36, 36, 36, 0.212);  
+     width: 30rem;
+     height: 100%;
+     position: fixed;
+     right: 0;
+     top: 0;
+     right: -30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s all;
+    z-index: 99999;
+    /* font-size: rem !important; */
+}
+.active{
+         right: 0;
+}
+.menu{
+    display: block;
+}
+.navbar .links{
+    flex-direction: column;
+    gap:5rem;
+}
+.head {
+
+    width: 95%;
+
+}
+    footer .contacts{
+        width: 90%;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        gap: 6rem;
+      
+    }
+  footer{
+    height: auto;
+    padding: 2rem 0; 
+  }
+}
+@media (max-width: 768px){
+    footer .contacts{
+        width: 90%;
+        
+        
+        display: grid;
+        grid-template-columns: 1fr  1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+        gap: 10rem;
+        /* column-gap: 10rem; */
+      
+    }
+
+}
+@media (max-width: 600px){
+    .decore-offer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+          width: 5rem;
+        }
+        /* footer .shadow-d{
+    background: #000;
+    width: 10rem;
+} */
+}
+@media (max-width: 480px){
+     footer .contacts{
+        width: 90%;
+        
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+        gap: 6rem;
+      
+    } 
+}
+@media (max-width: 360px){
+
+}
