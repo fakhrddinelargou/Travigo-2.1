@@ -1,11 +1,86 @@
-## ⚙️ Technologies Used
-- HTML5 / CSS3 / JavaScript
-- Responsive Design (Desktop & Mobile)
+# TRAVIGO 🌍
 
-## 🎨 Design Reference
-- Figma Design: (https://www.figma.com/design/5qlxeCXNzfvSszghCqjz8e/travel-website-landing-page-genzdevs-68e7ca81ea486124610984?node-id=0-1&p=f&t=51PHO5W6wzBYSbDm-0)
-- Trello Board (Task Management): (https://trello.com/invite/b/68ea93d8dedc96898b19a6e4/ATTI39cb644f8572a4790e8ab13c7fe05cfeD28698C7/travigo)
+## Description
+This project is a redesign and improvement of the existing **TRAVIGO** travel agency website.  
+The goal is to modernize the design, add new pages, and enhance the user experience through clear structure and responsive design — using **only HTML and CSS** (no JavaScript).
 
-## 🚀 How to Run
-1. Clone repository
-2. Open `index.html` in your browser
+---
+
+## 📚 Project Requirements
+
+### 1. Blog & Article Details
+- Create a **Blog** page that lists articles, travel tips, and news.
+- Create a **Detail Article** page that shows:
+  - Title, image, author, and date.
+  - Well-structured article content.
+
+### 2. Destination Details
+- Create a **Detail Destination** page that presents:
+  - Destination description.
+  - Key highlights.
+  - Photos and suggested itineraries.
+
+### 3. Photo Gallery
+- Create an **immersive gallery** with a **CSS image slider** for navigating travel photos.
+
+### 4. Special Offers
+- Add a **Special Offers** page with promotions and deals displayed as **attractive cards**.
+
+### 5. Authentication Pages
+- Add **Login** and **Signup** pages for user connection/registration (visual simulation only).
+
+### 6. FAQ & Contact
+- Improve the **Contact** page by adding an integrated **FAQ section**.
+
+### 7. About Us & Our Team
+- Enrich the **About** page with a new **Our Team** section presenting team members and their roles.
+
+---
+
+## 🎨 Design Phase (Figma)
+Before integration, a full design phase must be completed on **Figma**, including:
+- Zoning and wireframes for all pages.
+- Interactive desktop prototype.
+- Responsive mobile version and prototype.
+
+**Goal:** Deliver a smooth, consistent user experience across all devices.
+
+---
+
+## 💻 Development Guidelines
+- HTML & CSS only (no JavaScript).
+- Semantic structure (header, main, section, article, footer, etc.).
+- Fully responsive design (desktop, tablet, mobile).
+- Use of **Flexbox**, **Grid**, and **Media Queries**.
+- Smooth **CSS transitions** and **animations**.
+- HTML & CSS must pass **W3C validation**.
+
+---
+
+## 📦 Deliverables
+- Complete **Figma prototype** (desktop + mobile).
+- **Zoning** and **wireframe** files.
+- Full **HTML + CSS source code**.
+- A **responsive website** functioning on all devices.
+- Final **presentation** of the prototype and website.
+
+---
+
+## 🧠 Technologies Used
+- **HTML5**
+- **CSS3 (Flexbox, Grid, Animations, Media Queries)**
+- **Figma** (for design and prototyping)
+
+---
+
+## 🧑‍💻 Author
+**Fakhreddine Largou**
+**Abderrahmane Elhadere**
+**Mohammed Debbarh**
+**Khaldi Khaoula**
+**El Mehdi Lahrach**
+
+---
+
+## 📄 License
+This project is for educational purposes and not for commercial use.
