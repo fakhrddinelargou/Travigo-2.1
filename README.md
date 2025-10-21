@@ -74,10 +74,10 @@ Before integration, a full design phase must be completed on **Figma**, includin
 ---
 
 ## 🧑‍💻 Author
-**Fakhreddine Largou**
-**Abderrahmane Elhadere**
-**Mohammed Debbarh**
-**Khaldi Khaoula**
+**Fakhreddine Largou** </br>
+**Abderrahmane Elhadere** </br>
+**Mohammed Debbarh** </br>
+**Khaldi Khaoula** </br>
 **El Mehdi Lahrach**
 
 ---
