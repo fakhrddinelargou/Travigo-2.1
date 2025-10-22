@@ -13,11 +13,6 @@
 
 } */
 
-.destination-body {
-    display: flex;
-    flex-direction: column;
-    gap: 10rem;
-}
 
 /* destinaction morocco */
 
@@ -51,7 +46,7 @@
     align-items: center;
     justify-content: center;
     gap: 5.6rem;
-
+     margin-bottom: 15rem;
 }
 
 .mar-place .place {
@@ -97,7 +92,7 @@
 
 .td {
     min-width: 90%;
-
+   margin-bottom: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,7 +175,7 @@
 .container-book {
     
     min-width: 90%;
-  
+  margin-bottom: 15rem;
     display: flex;
     justify-content: center;
     /* gap: 10rem; */
@@ -209,7 +204,7 @@
 
     display: flex;
     align-items: start;
-    justify-content: center;
+   
     gap: 2.1rem;
     font-size: 1.6rem;
     color: var(--paragraph-color);

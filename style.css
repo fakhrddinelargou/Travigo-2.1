@@ -54,20 +54,25 @@ VOLKHOV :
 */
 
 /* HOME */
+.bg-home{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
 
 .home {
-    background-image: url(/images/Decore.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 10rem; */
-    /* background: #000; */
-    
+
 }
 
 
@@ -152,12 +157,14 @@ VOLKHOV :
     background-color: #d89402;
 }
 
+
 .play-btn {
-    padding-top: 3.5rem;
+    
     background: none;
     border: none;
     display: flex;
     align-items: center;
+    gap: 2rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 1.53rem;
@@ -165,17 +172,23 @@ VOLKHOV :
     
 }
 
-.play-btn .play {
+.play-btn .ply{
+    background: #DF6951;
+    width: 5rem;
+    height: 5rem;
+    padding: 1.2rem;
+    border-radius: 50%;
+}
+.play-btn .ply {
     transition: .2s;
 }
 
-.play-btn .play:hover {
+.play-btn .ply:hover {
+    box-shadow: 0 0 1rem .2rem rgba(181, 55, 55, 0.351);
     transform: scale(1.1);
 }
 
-.play-btn span {
-    padding-bottom: 2.4rem;
-}
+
 
 .traveller {
     position: absolute;
@@ -208,6 +221,15 @@ VOLKHOV :
 
 }
 
+/* MAIN */
+
+main{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /* SECTION OFFER */
@@ -425,6 +447,7 @@ VOLKHOV :
 
 @media (max-width: 768px) {
 
+  
 
     .traveller {
         display: none;
@@ -434,6 +457,7 @@ VOLKHOV :
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         gap: 10rem;
+    
     }
 
     .header-content .title {
