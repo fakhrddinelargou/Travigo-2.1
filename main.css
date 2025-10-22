@@ -100,21 +100,17 @@ h2{
     color: var(--dark-blue-1);
 }
 
-
-header{
-    /* background-image: url(/images/Decore.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+/* 
+.head{
     width: 100%;
     height: auto;
     display: flex;
-    /* flex-direction: column; */
+    
     align-items: center;
     justify-content: center;
     gap: 10rem;
-
-}
+background: #b8b8b8;
+} */
 
 /* HEAD */
 
@@ -123,9 +119,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 85%;
+    width: 100%;
+    max-width: 90%;
     height: 10vh;
-    /* background: #000; */
+    /* background: #707070; */
+    margin-bottom: 8rem;
 }
 
 .logo {
@@ -140,7 +138,7 @@ header{
     display: flex;
     align-items: center;
     font-size: 1.53rem;
-    gap: 5.6rem;
+    gap: .6rem;
 }
 
 .navbar .links a,
