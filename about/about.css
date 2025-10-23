@@ -11,19 +11,14 @@
 }
 
 .pepole {
-    background: #f9f9f9;
     display: flex;
-    /* gap: 10rem; */
     height: 24rem;
 }
 
-.what {
-    /* background: #19ab16; */
 
-}
 
 .AllCards {
-    /* background: #ffffff; */
+    background: white;
     display: flex;
     align-items: center;
     font-family: "Poppins", sans-serif;
@@ -39,6 +34,7 @@
     width: 50rem;
     height: 24rem;
     border-radius: 1rem;
+
 }
 
 .AllCards .container-cmnts .profile {
@@ -72,8 +68,7 @@
 
 .pepole h2 {
     margin-bottom: 7.5rem;
-    /* width: 70%; */
-    /* background: #000; */
+   
 }
 
 .points {
@@ -103,9 +98,10 @@
 }
 
 /* section */
-
-.section1 {
+.width{
     width: 68%;
+}
+.section1 {
     /* background: #000; */
     display: flex;
     flex-direction: column;
@@ -114,7 +110,8 @@
 }
 
 .about1 {
-    width: 100%;
+
+    /* width: 100%; */
     /* background-color: #a53030; */
     display: flex;
     flex-direction: row;
@@ -156,7 +153,7 @@
 
 
 .about2 {
-    width: 100%;
+    /* width: 100%; */
     /* background-color: #3c0c9c; */
     display: flex;
     flex-direction: row;
@@ -198,21 +195,26 @@
     /* background: #aa0f0f; */
     width: 100%;
     display: flex;
+    /* background: #000; */
     flex-direction: column;
+    /* flex-wrap: wrap; */
     align-items: center;
+    /* background: #000; */
 }
 
 .localprix img {
     width: 30rem;
+    
 }
 
 
 .hotelfoods {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 6.3rem;
     margin-bottom: 12rem;
-
+    /* background: #000; */
 }
 
 .localprix {
@@ -222,6 +224,7 @@
     align-items: center;
     border-radius: 37px 37px;
     box-shadow: 0px 8px 10px 1px #5e5e5e26;
+    /* background: #000; */
 }
 
 .localprix:hover {
@@ -270,11 +273,13 @@
 
 /* our team */
 .team {
-    /* background-color: #39425D; */
+    background-color: #39425D;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     gap: 9.8rem;
+    /* width: 100%; */
 }
 
 .team div {
@@ -284,7 +289,10 @@
     justify-content: center;
     column-gap: 3.4rem;
     row-gap: 6rem;
+    /* background: #000; */
+    /* width: 6%; */
 }
+
 
 .team img {
     width: 320px;
@@ -293,7 +301,7 @@
 .ourteam {
     width: 32rem;
     height: 32rem;
-    background-color: #459e2f;
+    /* background-color: #459e2f; */
 }
 
 .ourteam div h3 {
@@ -431,6 +439,16 @@
         font-size: 3rem;
     }
 
+    body{
+        /* background: #000 ; */
+    }
+    /* .hotelfoods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6.3rem;
+    margin-bottom: 12rem;
+
+} */
 }
 
 @media (max-width: 992px) {
@@ -455,7 +473,6 @@
 }
 
 @media (max-width: 768px) {
-
 
 
     .AllCards {
