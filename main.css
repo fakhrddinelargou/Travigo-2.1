@@ -75,6 +75,9 @@ html{
 --yellow : #F1A501;
 --gray:#686D77;
 --h2 : 5rem;
+--line-h : 2 ;
+
+--orange-400 : #FFF1DA;
 
 }
 
@@ -333,7 +336,8 @@ z-index: 99999;
 @media (max-width: 1200px){
  
 .navbar .links {
-    gap: 2.6rem;
+    gap: 1rem;
+    font-size: 1.2rem;
 }
 
 }
