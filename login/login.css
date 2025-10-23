@@ -1,0 +1,185 @@
+/*   general  */
+
+* {
+    padding: 10px;
+}
+
+body {
+    background-image: url(../images/img_logiin/Decore.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: top;
+    background-position-x: right;
+
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------ */
+/*  header */
+img {
+    position: absolute;
+    left: 35rem;
+}
+
+.logo {
+    top: 1rem;
+    font-size: bold;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.head {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header,
+.link,
+li {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    color: rgb(5, 4, 4);
+    width: 100%;
+
+}
+
+
+/* ---------------------------------------------------------------------------
+/* main */
+
+.img_femme p {
+    margin-left: 11%;
+}
+
+h1 {
+    color: hsl(31, 83%, 56%);
+    margin-left: 10%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.email {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: FF926D;
+    border: 1px solid #3d3a3a;
+    background-color: rgb(250, 212, 165);
+    padding: 0.5rem;
+}
+
+.password {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: FF926D;
+    border: 1px solid #3d3a3a;
+    background-color: rgb(250, 212, 165);
+    padding: 0.5rem;
+}
+
+.input_login {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #3d3a3a;
+    background-color: hsl(36, 64%, 52%);
+    color: white;
+    padding: 0.5rem;
+}
+
+.input_create {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #3d3a3a;
+    background-color: hsl(60, 20%, 1%);
+    border: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.sing {
+    color: hsl(215, 71%, 58%);
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* FOOTER */
+
+
+.footer>div:first-child {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .travigo ul li {
+    list-style-type: none;
+}
+
+.footer img {
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+.paragraphe {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ----------------------------------------------------------------------------- */
+/* responsive */
+
+
+/* hedader */
+@media (max-width:768px) {
+    body {
+        background-image: none;
+    }
+
+    .logo {
+        position: relative;
+        font-size: 1rem;
+    }
+   .navbar ul li{
+        display:flex;
+        flex-direction:column;
+   }
+
+    .input {
+        margin-left: 0;
+    }
+}
+
+
+/* footer */
+@media (max-width:768px) {
+  .footer>div:first-child {
+    display: flex;
+    flex-direction: column;
+ ;
+}
+.paragraphe {
+    display: flex;
+    justify-content: center;
+}
+
+}
