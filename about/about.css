@@ -1,95 +1,96 @@
-.about-body{
-    display: flex;
-    flex-direction: column;
-    gap: 15rem;
-    
+.about-body {
+    gap: 5rem;
 }
+
 .sTit {
     color: var(--paragraph-color);
     font-size: 1.8rem;
     font-weight: 700;
     padding-bottom: .8rem;
-   
+
 }
-.pepole{
- 
+
+.pepole {
     display: flex;
-  
-height: 28rem;
-max-width: 90%;
+    height: 24rem;
 }
-.AllCards{
+
+
+
+.AllCards {
+    background: white;
     display: flex;
     align-items: center;
-    gap: 11rem;
-    width: 66rem;
-    height: 28rem;
-         font-family: "Poppins", sans-serif;
-  font-style: normal;
-  color: var(--paragraph-color);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: var(--paragraph-color);
 }
- .container-cmnts{
+
+.container-cmnts {
     border: solid .1rem rgba(136, 136, 136, 0.064);
-    box-shadow:  0 2rem 1rem .2rem rgba(0, 0, 0, 0.048);
+    box-shadow: 0 2rem 1rem .2rem rgba(0, 0, 0, 0.048);
     position: relative;
     padding: 2.8rem 0 0 3.4rem;
     width: 50rem;
     height: 24rem;
     border-radius: 1rem;
+
 }
-.AllCards .container-cmnts .profile{
+
+.AllCards .container-cmnts .profile {
     position: absolute;
     left: -3.5rem;
     top: -3.5rem;
 }
- .container-cmnts p{
+
+.container-cmnts p {
     font-weight: 400;
     font-size: 1.6rem;
     width: 85%;
     line-height: 32px;
     /* background: #000; */
- padding-bottom: 3.4rem;
+    padding-bottom: 3.4rem;
 
 }
-.AllCards .container-cmnts div{
-font-size: 1.8rem;
-padding-bottom: 0.5rem;
+
+.AllCards .container-cmnts div {
+    font-size: 1.8rem;
+    padding-bottom: 0.5rem;
 
 }
-.AllCards .container-cmnts  span{
-font-size: 1.4rem;
 
-}
-.AllCards .btns{
-    display: flex;
-    flex-direction: column;
-    gap: 5.7rem;
-    margin-top: 4rem;
+.AllCards .container-cmnts span {
+    font-size: 1.4rem;
+
 }
 
 
-.pepole h2{
-    margin-bottom: 8.2rem;
-    width: 70%;
-    /* background: #000; */
+
+.pepole h2 {
+    margin-bottom: 7.5rem;
+   
 }
 
-.points{
+.points {
     display: flex;
     gap: 2.6rem;
 }
-.points .point:nth-child(1){
+
+.points .point:nth-child(1) {
     background: #39425D;
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
 }
-.points .point:nth-child(2){
+
+.points .point:nth-child(2) {
     background: #E5E5E5;
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-}.points .point:nth-child(3){
+}
+
+.points .point:nth-child(3) {
     background: #E5E5E5;
     width: 1rem;
     height: 1rem;
@@ -97,55 +98,287 @@ font-size: 1.4rem;
 }
 
 /* section */
-.about-offer-mission{
+.width{
+    width: 68%;
+}
+.section1 {
+    /* background: #000; */
     display: flex;
     flex-direction: column;
-    align-items: start;
-    
-    /* background: #0000002f; */
-    width: 60%;
-max-width: 100%;
-    gap: 5rem;
-  
+    align-items: center;
+    gap: 15rem;
 }
-.tom{
-        border: solid .1rem rgba(136, 136, 136, 0.064);
-    box-shadow:  0 2rem 1rem .2rem rgba(0, 0, 0, 0.048);
-    /* position: relative; */
-    padding: 2.8rem 0 0 3.4rem;
-    width: 50rem;
-    height: auto;
-    border-radius: 1rem;
-      color: var(--dark-blue);
-          max-width: 95%;
+
+.about1 {
+
+    /* width: 100%; */
+    /* background-color: #a53030; */
+    display: flex;
+    flex-direction: row;
+    gap: 13.2rem;
 }
-.tom p{
+
+.pargraphe1 {
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    box-shadow: 0px 20px 30px 2px #5e5e5e26;
+    border-radius: 10px;
+    width: 40.9rem;
+    height: 16rem;
+    margin-top: 2.7rem;
+
+}
+
+.about1 p {
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
-    width: 85%;
-    line-height: 32px;
-    /* background: #000; */
- padding-bottom: 3.4rem;
-
-}
-.tom h4{
-    font-size: 1.8rem;
-padding-bottom: 0.5rem;
-display: flex;
-align-items: center;
-gap: .5rem;
-font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--paragraph-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tom:nth-child(2){
-    /* background: #000; */
-    align-self: flex-end;
+.about1 div img {
+    display: flex;
+    position: relative;
+    right: 5.5rem;
+    bottom: 2rem;
 }
+
+
+
+
+
+.about2 {
+    /* width: 100%; */
+    /* background-color: #3c0c9c; */
+    display: flex;
+    flex-direction: row;
+    gap: 19.8rem;
+}
+
+.pargraphe2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    box-shadow: 0px 20px 30px 2px #5e5e5e26;
+    border-radius: 10px;
+    width: 40.9rem;
+    height: 9.5rem;
+    margin-top: 2.7rem;
+}
+
+.pargraphe2 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--paragraph-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about2 div img {
+    display: flex;
+    position: relative;
+    left: 20.5rem;
+    bottom: 1.6rem;
+}
+
+/* foods & hotel */
+.foodhotel {
+    /* background: #aa0f0f; */
+    width: 100%;
+    display: flex;
+    /* background: #000; */
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* background: #000; */
+}
+
+.localprix img {
+    width: 30rem;
+    
+}
+
+
+.hotelfoods {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6.3rem;
+    margin-bottom: 12rem;
+    /* background: #000; */
+}
+
+.localprix {
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 37px 37px;
+    box-shadow: 0px 8px 10px 1px #5e5e5e26;
+    /* background: #000; */
+}
+
+.localprix:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
+.localprix div {
+    /* background: #a7a7a7; */
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.localprix div p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    color: var(--paragraph-color);
+
+}
+.ancienprix{
+    margin-left: 4rem;
+    text-decoration: line-through;
+    color: #825E5E;
+}
+
+.nouveauprint{
+    color: #788675;
+}
+
+.category {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: var(--paragraph-color);
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+
+
+/* our team */
+.team {
+    background-color: #39425D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 9.8rem;
+    /* width: 100%; */
+}
+
+.team div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3.4rem;
+    row-gap: 6rem;
+    /* background: #000; */
+    /* width: 6%; */
+}
+
+
+.team img {
+    width: 320px;
+}
+
+.ourteam {
+    width: 32rem;
+    height: 32rem;
+    /* background-color: #459e2f; */
+}
+
+.ourteam div h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    counter-reset: #14183E;
+    margin-left: 17px;
+}
+
+.ourteam div p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    color: var(--paragraph-color);
+    margin-left: 17px;
+}
+
+#Khawla {
+    background: url(/images/about/khawla.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Abderahmane {
+    background: url(/images/about/abderahim.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#Fakherdinne {
+    background: url(/images/about/fakherdinne.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Mohamed {
+    background: url(/images/about/mohamed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Mehdi {
+    background: url(/images/about/mehdi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.ourteam div {
+    width: 20rem;
+    height: 7rem;
+    background-color: #FFF1DA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 22rem;
+    gap: 0rem;
+}
+
+.ourteam div:hover{
+    transform: scale(1.1);
+    transition:.3s;
+}
+
+
+
 
 /* brands */
 
 
-.brands{
+.brands {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,139 +388,143 @@ font-weight: 500;
     gap: 6rem;
 }
 
-.brand{
-    
+.brand {
+
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    align-items: center;
     gap: 6rem;
-  animation: spin 5s infinite linear;
+    animation: spin 5s infinite linear;
 }
-.brands::-webkit-scrollbar{
+
+.brands::-webkit-scrollbar {
     display: none;
 }
+
 @keyframes spin {
-    from{translate: 0 ;}
-    to{translate: 100%;}
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: 100%;
+    }
 }
-.brand img{
-  filter: grayscale(100%);
-  flex: 0 0 5rem;
+
+.brand img {
+    filter: grayscale(100%);
+    flex: 0 0 5rem;
 }
 
 
-@media (max-width: 1400px){
+@media (max-width: 1400px) {
 
-    .pepole{
+    .pepole {
         gap: 5rem;
     }
-    
+
 }
-@media (max-width: 1200px){
-    
-    
-    .sTit{
-        font-size:1.5rem ;
-    }
-    .pepole h2{
-        
-        width: 100%;
-        font-size:3rem ;
-    }
-    
-}
-@media (max-width: 992px){
-    .sTit{
-        font-size:1.8rem ;
-    }
-      .pepole h2{
-        
-        width: 100%;
-        font-size:5rem ;
+
+@media (max-width: 1200px) {
+
+
+    .sTit {
+        font-size: 1.5rem;
     }
 
-    .pepole{
+    .pepole h2 {
+
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    body{
+        /* background: #000 ; */
+    }
+    /* .hotelfoods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6.3rem;
+    margin-bottom: 12rem;
+
+} */
+}
+
+@media (max-width: 992px) {
+    .sTit {
+        font-size: 1.8rem;
+    }
+
+    .pepole h2 {
+
+        width: 100%;
+        font-size: 5rem;
+    }
+
+    .pepole {
         gap: 15rem;
         flex-direction: column;
         align-items: center;
-  height: auto;
-}
-
-
-}
-@media (max-width: 768px){
-    
-    .about-offer-mission{
-        align-items: center;
-        /* background: #000; */
+        height: auto;
     }
-    
-    .AllCards{
+
+
+}
+
+@media (max-width: 768px) {
+
+
+    .AllCards {
         gap: 1rem;
         justify-content: center;
         /* background: #000; */
     }
-    
-    .tom:nth-child(2){
-            
-        align-self: center;
-        
+
+
+
+
+
+    .container-cmnts {
+
+        width: 40rem;
+
+        padding-bottom: 2rem;
+
     }
-    .about-offer-mission{
-    /* background: #000; */
-
-align-items: center;
-
-/* background: #0000002f; */
-width: 100%;
-
-gap: 5rem;
-
-}
-
- .container-cmnts{
-
-    width: 40rem;
-
-    padding-bottom: 2rem;
-   
-}
 
 
 }
-@media (max-width: 600px){
-    
-    
 
-}
-@media (max-width: 480px){
-    .about-body{
-        /* background: #000; */
+@media (max-width: 600px) {}
+
+@media (max-width: 480px) {
+
+
+    .container-cmnts {
+
+        width: 30rem;
+        height: auto;
+        padding: 4rem;
+
     }
-     .container-cmnts{
 
-    width: 30rem;
-height: auto;
-    padding: 4rem;
-   
-}
-.AllCards .container-cmnts .profile{
-   width: 5rem;
+    .AllCards .container-cmnts .profile {
+        width: 5rem;
+    }
+
+    .AllCards {
+
+        width: 100%;
+
+    }
+
+    .AllCards .container-cmnts .profile {
+        position: absolute;
+        left: -3.5rem;
+        top: -3.5rem;
+
+    }
 }
 
-.AllCards{
-
-    width: 100%;
-
-}
-
-.AllCards .container-cmnts .profile{
-    position: absolute;
-    left: -3.5rem;
-    top: -3.5rem;
-    
-}
-}
-@media (max-width: 360px){
-
-}
+@media (max-width: 360px) {}
