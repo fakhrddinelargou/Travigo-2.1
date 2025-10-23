@@ -1,3 +1,10 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+
 .contact {
     /* background: #482424; */
     display: flex;
@@ -6,7 +13,7 @@
     align-items: center;
     gap: 13rem;
     margin-top: 6rem;
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
 }
 
 .contact-elmt {
@@ -60,7 +67,7 @@ form ::placeholder {
     color: #393E5D;
     position: relative;
     left: 15px;
-    
+
 }
 
 .form textarea {
@@ -98,7 +105,7 @@ form ::placeholder {
     top: 3rem;
 }
 
-.block_quetion{
+.block_quetion {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,7 +172,8 @@ form ::placeholder {
     font-size: 20px;
     color: #5E6082;
 }
-.reponse{
+
+.reponse {
     /* background: #000; */
     width: 66rem;
     height: 6rem;
@@ -174,4 +182,79 @@ form ::placeholder {
     align-items: center;
     border-radius: 10px;
     box-shadow: 0px 2px 5px 1px rgba(128, 128, 128, 0.152);
+}
+
+.fidele_service {
+    display: flex;
+    justify-content: center;
+    gap: 4.2rem;
+}
+
+.avantage {
+    /* background: #000; */
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 2px 5px 1px rgba(128, 128, 128, 0.152);
+}
+
+.avantage h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #16143E;
+}
+
+.avantage p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #5E5E82;
+}
+
+.question_frequent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 15rem;
+}
+
+.question_reponse {
+    width: 72.6%;
+    /* height: auto;  */
+    /* background-color: #14153E; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr ; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 2rem;
+
+}
+
+.reponse_au_question {
+    /* background-color: #DF6951; */
+    width: 54rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 1px rgba(128, 128, 128, 0.152);
+}
+
+.reponse_au_question p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #5E6282;
+    margin-left: 16px;
 }
