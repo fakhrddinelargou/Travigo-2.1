@@ -104,6 +104,7 @@ form ::placeholder {
     height: 59rem;
     position: relative;
     top: 3rem;
+
 }
 
 .block_quetion {
@@ -165,6 +166,7 @@ form ::placeholder {
     height: 5rem;
     position: relative;
     left: 4rem;
+
 }
 
 
@@ -220,7 +222,7 @@ form ::placeholder {
 .fidele_service a:hover{
     transform: scale(1.1);
     transition: .3s;
-    
+
 }
 
 .avantage h5 {
@@ -240,37 +242,45 @@ form ::placeholder {
 }
 
 .question_frequent {
-    background: #000;
+    /* background: #000; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5rem;
+    /* width: 100%; */
+    height: auto;
     margin-bottom: 15rem;
+    max-width: 90%;
 }
 
+
+
+
 .question_reponse {
-    width: 73.7%;
+    /* width: 80%; */
     /* height: auto;  */
-    background-color: #14153E;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr ; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* justify-content: center; */
+    /* background-color: #292955; */
+     display: grid;
+    grid-template-columns: 1fr 1fr ;
     gap: 2rem;
+    /* max-width: 90%; */
+    /* margin: auto; */
+
 
 }
 
 .reponse_au_question  {
-    background-color: #DF6951;
-    /* width: 54.7rem; */
+    background-color: #fff;
+    width: 100% !important;
     height: 5.6rem;
     display: flex;
     align-items: center;
     border-radius: 10px;
     box-shadow: 0px 2px 5px 1px rgba(128, 128, 128, 0.152);
     text-decoration:none;
+    padding: 1rem 0;
+    width: 50%;
+
 }
 
 
@@ -297,7 +307,7 @@ form ::placeholder {
 
 
 .reponse_au_question_Q  {
-    background-color: rgba(128, 128, 128, 0.219);
+    background-color: rgba(128, 128, 128, 0.455);
     width: 36.2%;
     height: 24rem;
     border-radius: 10px;
@@ -364,4 +374,137 @@ form ::placeholder {
 .size_du_question{
     background: #000;
     width: 49.1%;
+}
+
+
+
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+
+    
+}
+
+@media (max-width: 992px) {
+
+     .contact {
+        width: 50%;
+
+    }
+    .contact-image {
+ display: none;
+}
+
+
+.recherche_question ::placeholder {
+    font-size: 20px;
+}
+
+
+.recherche_question {
+
+    width: 100%;
+    max-width: 90%;
+ padding: 2rem;
+}
+
+}
+
+@media (max-width: 768px) {
+.question_reponse {
+
+    grid-template-columns: 1fr  ;
+
+max-width: 90%;
+
+}
+.reponse_au_question_Q  {
+    width: 70%;
+}
+.question_Q{
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+.reponse_Q{
+    padding: 5rem 0;
+    font-size: 1.1rem;
+}
+
+.fidele_service {
+    
+    flex-direction: column;
+}
+.block_quetion div:nth-child(2){
+
+    width: 60%;
+    margin: auto;
+    height: auto;
+    padding: 1rem;
+}
+}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 480px) {
+
+    .question_frequent h2{
+        font-size: 2rem;
+    }
+
+.question_reponse {
+
+
+max-width: 70%;
+gap: 5rem;
+}
+
+.contact-element{
+
+    width: 90%;
+margin: auto;
+}
+.contact-element h2{
+    font-size: 4rem !important;
+}
+.contact-element p{
+    width: 90%;
+}
+
+.form {
+
+    width: 100%;
+
+}
+
+
+
+.recherche_question {
+
+    width: 45%;
+    /* gap: 1rem; */
+    max-width: 90%;
+ padding: 2rem;
+}
+
+.recherche_question ::placeholder {
+    font-size: 16px;
+}
+
+.block_quetion h2{
+    font-size: 2.3rem;
+}
+
+.icon_recherche{
+    display: none;
+}
+}
+
+@media (max-width: 360px) {
+
+
+
 }
