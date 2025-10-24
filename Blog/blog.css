@@ -43,7 +43,7 @@
 }
 .main_article {
     /* padding: 60px 80px; */
-    background: #000 !important;
+    /* background: #000 !important; */
     width: 90%;
     justify-self: center;
 }
@@ -155,6 +155,7 @@ main{
     /* margin: 0 auto; */
     display: flex;
     align-items: center;
+    /* flex-wrap: wrap; */
     gap: 2rem;
     margin-left: 3.4%;
     /* background-color: #DF6951; */
@@ -283,4 +284,94 @@ main{
 .card:hover{
     box-shadow:0 0 50px rgba(0, 0, 0, 0.523);
     transform: scale(1.03);
+}
+
+
+@media(max-width:1279px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+@media(max-width:1023px){
+    .into_blog{
+        height: 40vh;
+    }
+    .blog .title_main{
+        font-size: 50px;
+    }
+    .parag{
+        font-size: 15px;
+    }
+    .article_element{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .article_image{
+        border-radius: 0 0 15px 15px;
+
+    }
+}
+@media(max-width:603px){
+    nav{
+        display: none;
+    }
+    .into_blog{
+        height: 30vh;
+    }
+    .blog .title_main{
+        font-size: 30px;
+    }
+    .parag{
+        font-size: 12px;
+    }
+    .main_article{
+        width: 100%;
+    }
+    .article_element{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .article_image{
+        border-radius: 0 0 15px 15px;
+    }
+    .blog .title{
+    font-size: 35px;
+    text-align: center;
+    }
+    .article_info{
+    align-items: start;
+    gap: 1rem;
+    }
+    .article_info p{
+        color: #5E6282;
+        font-size: 15px;
+    }
+}
+@media(max-width:480px){
+    .parent{
+        padding: 0px;
+    }
+    .text h3{
+        font-size: 15px;
+    }
+    .text p{
+        font-size: 12px;
+        opacity: 60%;
+        }
+    .btn_read {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+}
+@media(max-width:413px){
+    .blog .title{
+    font-size: 22px;
+    }
+    .article_info{
+        flex-direction: column;
+        gap: .5rem;
+        align-items: center;
+    }
 }
