@@ -240,7 +240,7 @@ form ::placeholder {
 }
 
 .question_frequent {
-    /* background: #000; */
+    background: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -251,7 +251,7 @@ form ::placeholder {
 .question_reponse {
     width: 73.7%;
     /* height: auto;  */
-    /* background-color: #14153E; */
+    background-color: #14153E;
     /* display: grid;
     grid-template-columns: 1fr 1fr ; */
     display: flex;
@@ -263,8 +263,8 @@ form ::placeholder {
 }
 
 .reponse_au_question  {
-    /* background-color: #DF6951; */
-    width: 54.7rem;
+    background-color: #DF6951;
+    /* width: 54.7rem; */
     height: 5.6rem;
     display: flex;
     align-items: center;
@@ -298,7 +298,7 @@ form ::placeholder {
 
 .reponse_au_question_Q  {
     background-color: rgba(128, 128, 128, 0.219);
-    width: 76rem;
+    width: 36.2%;
     height: 24rem;
     border-radius: 10px;
     display: flex;
@@ -326,9 +326,9 @@ form ::placeholder {
 
 
 .question_Q {
-    width: 55rem;
+    width: 95%;
     height: 4rem;
-    margin-left:3.7rem;
+    margin-left:1.5rem;
     background-color: #FFF1DA;
     display: flex;
     align-items: center;
@@ -343,9 +343,9 @@ form ::placeholder {
 }
 
 .reponse_Q {
-    width: 69rem;
+    /* width: 69rem; */
     height: 11rem;
-    margin-left: 3.7rem;
+    margin-left: 1.5rem;
     background-color: white;
     display: flex;
     align-items: center;
@@ -359,4 +359,9 @@ form ::placeholder {
 
 .les_reponse p{
     margin-left: 13px;
+}
+
+.size_du_question{
+    background: #000;
+    width: 49.1%;
 }
