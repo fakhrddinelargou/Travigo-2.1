@@ -72,7 +72,10 @@ Before integration, a full design phase must be completed on **Figma**, includin
 - **Figma** (for design and prototyping)
 
 ---
+-**Trello** : (https://trello.com/invite/accept-board)
+-**Figma** : (figma.com/design/5qlxeCXNzfvSszghCqjz8e/travel-website-landing-page-genzdevs-68e7ca81ea486124610984?node-id=0-1&t=OLRhWjmm4yW5CwXs-1)
 
+---
 ## 🧑‍💻 Author
 **Fakhreddine Largou** </br>
 **Abderrahmane Elhadere** </br>
