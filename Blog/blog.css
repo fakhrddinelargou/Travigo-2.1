@@ -1,41 +1,9 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     list-style: none;
     text-decoration: none;
     color: black;
 }
-header{
-    /* background-color: yellowgreen; */
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-}
-header p{
-    padding-left: 7%;
-    font-family: "Lexend", sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-}
-nav{
-    width: 60%;
-}
-ul{
-    /* background-color: yellowgreen; */
-    display: grid;
-    grid-template-columns: repeat(8,auto);
-    /* justify-items: center; */
-    column-gap: 2%;
-}
-li{
-    color: #212832;
-    font-family: "Open sans", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-}
 .into_blog{
     width: 100%;
     height: 60vh;
