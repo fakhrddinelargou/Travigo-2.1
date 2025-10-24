@@ -1,11 +1,4 @@
 
-
- * {
-     padding:10px;
-
- }
-
-
 body {
     background-image: url(../images/img_logiin/Decore.png);
     background-repeat: no-repeat;
@@ -41,6 +34,8 @@ body {
    font-size: 5rem;
    position: relative;
     right:40rem;
+        padding: 10px;
+
    
 }
 .login{
@@ -73,6 +68,8 @@ input , .input_login {
     font-size: 10px;
     position:relative ;
     top:20px;
+        padding: 10px;
+
 }
 
 .input_create {
