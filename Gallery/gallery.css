@@ -12,10 +12,6 @@ main {
 
 }
 
-/* .headings .title {
-    padding-bottom: 10rem;
-} */
-
 .headings span {
     color: var(--paragraph-color);
     font-size: 1.8rem;
