@@ -1,0 +1,110 @@
+ * {
+     padding:10px;
+
+ }
+
+body {
+    background-image: url(../images/img_logiin/Decore.png);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: right;
+    /* overflow: hidden; */
+}
+
+ 
+
+/* ------------------------------------------------------------------------------------------------ */
+/* /* main */
+.a {
+  text-decoration: none;
+}
+
+.bg-img{
+    position: absolute;
+    right: -45rem;
+    top: -5rem;
+    width: 55rem;
+}
+.img_femme p{
+    position: relative;
+    right:40rem;
+}
+.img_femme{
+    position: relative;
+    bottom: 5rem;
+
+}
+ h1 {
+    color:#DF6951;
+   font-size: 5rem;
+   position: relative;
+    right:40rem;
+   
+}
+.login{
+     color: hsl(215, 71%, 58%);
+
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: relative;
+    right:40rem;
+    
+}
+.input_sign_up {
+    background-color:#ff916d !important;
+    color: white;
+}
+input , .input_sign_up {
+
+    width: 30rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(250, 212, 165, 0.316);
+    border: 1px solid #3d3a3a;
+    padding: 0 0.9rem ;
+    letter-spacing: .05rem;
+}
+.para1{
+    font-size: 10px;
+}
+
+footer{
+    position:relative;
+    top:50px;
+}
+/* ----------------------------------------------------------------------------------------
+ 
+/* responsive */
+@media (max-width: 768px){
+    *{
+        font-size: 10px;
+        
+    }
+    .bg-img{
+        display:none;
+    }
+    h1{
+        position : relative ;
+        left : 2rem;
+        font-size: 5vw;
+    }
+    .input{
+        position : relative ;
+        size:20rem;
+        left : 2rem;
+    }
+    .para1{
+         position : relative ;
+        left : 2rem;
+    }
+    body{
+        background-image: url(../images/img_logiin/Decore.png);
+        background-size: 50%;
+            background-position-y: top;
+    background-position-x: right;
+    }
+
+}

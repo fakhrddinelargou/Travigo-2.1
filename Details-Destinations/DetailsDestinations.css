@@ -1,0 +1,344 @@
+
+/* 
+
+
+first
+second
+third
+fourth
+fifth
+sixth
+seventh
+eighth
+ninth
+tenth
+
+
+
+
+
+
+
+
+
+*/
+
+h1,h2,h3,h4,h5{
+    font-family: "Volkhov", serif;
+}
+
+/* MAIN */
+
+ main{
+        max-width: 80%;
+        margin-bottom: 15rem; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15rem;
+    }
+    main p{
+        font-size: 1.6rem;
+        color: var(--paragraph-color);
+        line-height: var(--line-h);
+    }
+
+    /* SECTION 1 */
+    main .hero-section {
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+    }
+    main .hero-section .image{
+        position: relative;
+    }
+    main .hero-section .image img{
+    width: 52rem;
+    height: 37rem;
+    position: relative;
+    }
+    main .hero-section .image::before{
+        content: "";
+        background: var(--orange-400);
+         width: 52rem;
+    height: 37rem;
+        position: absolute;
+        top: -2rem;
+        left: -2rem;
+        border-radius: 1rem;
+        
+
+    }
+    
+    main .hero-section .content h2{
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+    }
+
+
+    /* SECTION 2 */
+
+    .second-section{
+       
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15rem;
+    }
+      .second-section .destination .second-section-content{
+        text-align: end !important;
+    }
+    .second-section h3{
+        font-size: 3rem;
+       
+    }    
+
+.second-section .destination{
+display: flex;
+align-items: center;
+justify-content: center;
+width: auto;
+gap: 6rem;
+}
+
+.second-section .destination .first-destination-image::after{
+    content: "";
+    width: 10rem;
+    height: 10rem;
+    background: #FFF1DA;
+    position: absolute;
+    z-index: -1;
+    border-radius: 1.5rem .5rem ;
+
+}
+.second-section .first-destination .first-destination-image::after{
+    left: -5rem;
+    top: -5rem;
+}
+.second-section .second-destination .first-destination-image::after{
+     right: -5rem;
+    top: -5rem;
+}
+.second-section .third-destination .first-destination-image::after{
+     left: -5rem;
+    top: -5rem;
+}
+
+
+
+
+.second-section .destination .first-destination-image{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border-radius: 1rem;
+    /* overflow: hidden; */
+    width: 40rem;
+    height: 40rem;
+    gap: 2rem;
+}
+.second-section .destination .first-destination-image img:nth-child(1){
+    border-radius: 1rem 0 0 0 ;
+}
+.second-section .destination .first-destination-image img:nth-child(2){
+    border-radius: 0 1rem  0 0 ;
+}
+.second-section .destination .first-destination-image img:nth-child(3){
+    border-radius: 0 0  0 1rem   ;
+}
+.second-section .destination .first-destination-image img:nth-child(4){
+    border-radius: 0 0 1rem  0 ;
+}
+
+.second-section .destination .first-destination-image img{
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.second-section .destination .first-destination-image img:hover{
+transform: scale(1.1);
+}
+
+.second-section .destination .first-destination-content{
+    width: 50%;
+}
+
+.second-section .destination .first-destination-content{
+    text-align: start;
+}
+
+.second-section .destination .first-destination-content h4{
+    font-size: 2.8rem !important;
+}
+
+
+/* SECTION 3 */
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.third-section h5 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: var(--dark-orange);
+    text-align: center;
+}
+
+.third-section .places .place div:not(:nth-child(2)) {
+    height: 1rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background: var(--dark-orange);
+
+}
+
+.third-section .places {
+    display: flex;
+    flex-direction: column;
+    border: solid .1rem #dabbb48c;
+    border-radius: 1rem;
+    background: #FFF1DA;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 90%;
+}
+
+.third-section .places .box-place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.third-section .places .place {
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.third-section .places .place div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    background: var(--dark-orange);
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.47);
+    font-size: 1.6rem;
+
+}
+
+
+.cards {
+    width: 30rem;
+    border-radius: .5rem;
+    border: solid .1rem rgb(217, 208, 191);
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--paragraph-color);
+
+
+
+}
+
+
+@media (max-width: 1200px){
+
+    
+}
+@media (max-width: 992px){
+    main{
+        max-width: 90%; 
+    }
+    main .hero-section {
+        flex-direction: column;
+        text-align: center; 
+    }
+}
+@media (max-width: 768px){
+    .second-section .destination .first-destination-content{
+        text-align: center !important;
+    }
+    .second-section .destination{
+        flex-direction: column;
+    }
+    
+    .second-section .destination .first-destination-content{
+        width: 80%;
+    }
+    .second-destination article:nth-child(1){
+        order: 2;
+    }
+    
+}
+@media (max-width: 600px){
+    
+    main .hero-section .image img{
+        width: 48rem;
+        height: 34rem;
+    }
+    main .hero-section .image::before{
+        width: 48rem;
+        height: 34rem;
+    }
+    
+    
+    
+}
+@media (max-width: 480px){
+
+      main p{
+        font-size: 1.2rem;
+    }
+      .second-section{
+        gap: 7.5rem;
+    }
+       main .hero-section .image img{
+        width: 30rem;
+        height: 20rem;
+    }
+    main .hero-section .image::before{
+        width: 30rem;
+        height: 20rem;
+    }
+    .second-section .destination{
+gap: 3rem;
+}
+.second-section .destination .first-destination-image{
+    width: 30rem;
+    height: 30rem;
+}
+
+.second-section .destination .first-destination-image::after{
+    width: 5rem;
+    height: 5rem;
+}
+.second-section .first-destination .first-destination-image::after{
+    left: -2.5rem;
+    top: -2.5rem;
+}
+.second-section .second-destination .first-destination-image::after{
+     right: -2.5rem;
+    top: -2.5rem;
+}
+.second-section .third-destination .first-destination-image::after{
+      left: -2.5rem;
+    top: -2.5rem;
+}
+
+
+}
+@media (max-width: 360px){
+
+}

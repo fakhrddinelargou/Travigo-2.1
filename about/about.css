@@ -12,7 +12,7 @@
 
 .pepole {
     display: flex;
-    height: 24rem;
+    /* background: #000; */
 }
 
 
@@ -34,6 +34,7 @@
     width: 50rem;
     height: 24rem;
     border-radius: 1rem;
+    
 
 }
 
@@ -102,7 +103,6 @@
     width: 68%;
 }
 .section1 {
-    /* background: #000; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +110,6 @@
 }
 
 .about1 {
-
     /* width: 100%; */
     /* background-color: #a53030; */
     display: flex;
@@ -121,12 +120,13 @@
 .pargraphe1 {
     display: flex;
     justify-content: center;
-    /* background-color: aqua; */
     box-shadow: 0px 20px 30px 2px #5e5e5e26;
     border-radius: 10px;
     width: 40.9rem;
-    height: 16rem;
-    margin-top: 2.7rem;
+    height: auto;
+    padding: 2rem;
+max-width: 95% !important;
+/* background: #000; */
 
 }
 
@@ -163,13 +163,12 @@
 .pargraphe2 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* background-color: aqua; */
     box-shadow: 0px 20px 30px 2px #5e5e5e26;
     border-radius: 10px;
     width: 40.9rem;
-    height: 9.5rem;
-    margin-top: 2.7rem;
+    height: auto;
+    padding: 2rem;
+    max-width: 95%;
 }
 
 .pargraphe2 p {
@@ -421,7 +420,7 @@
 @media (max-width: 1400px) {
 
     .pepole {
-        gap: 5rem;
+        /* gap: 5rem; */
     }
 
 }
@@ -439,16 +438,6 @@
         font-size: 3rem;
     }
 
-    body{
-        /* background: #000 ; */
-    }
-    /* .hotelfoods {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 6.3rem;
-    margin-bottom: 12rem;
-
-} */
 }
 
 @media (max-width: 992px) {
@@ -466,31 +455,70 @@
         gap: 15rem;
         flex-direction: column;
         align-items: center;
-        height: auto;
+        
+        text-align: center;
+    }
+    .what{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-
+        .AllCards {
+        gap: 1rem;
+        justify-content: center;
+        text-align: center;
+        /* background: #000; */
+        padding: 2rem;
+    }
+.about1 , .about2{
+    text-align: center;
+    max-width: 90%;
+    width:60%;
+align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+.fleche{
+    display: none !important;
+}
+.pargraphe1{
+    order: 2;
+}
 }
 
 @media (max-width: 768px) {
 
-
-    .AllCards {
-        gap: 1rem;
-        justify-content: center;
+    .what span{
+        font-size: 1.5rem;
+    }
+    .what h2{
         /* background: #000; */
+       font-size: 3.5rem;
     }
 
+  
+   .pepole {
+        gap: 5rem;
+        width: 100%;
+ 
+    }
 
-
+.AllCards .container-cmnts .profile {
+    left: -3rem;
+    top: -2.5rem;
+    width: 5rem;
+}
 
 
     .container-cmnts {
 
-        width: 40rem;
-
+height: 30rem;
         padding-bottom: 2rem;
-
+max-width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
     }
 
 
@@ -509,22 +537,51 @@
 
     }
 
-    .AllCards .container-cmnts .profile {
-        width: 5rem;
-    }
 
     .AllCards {
-
+ /* background: #000; */
         width: 100%;
 
     }
 
-    .AllCards .container-cmnts .profile {
-        position: absolute;
-        left: -3.5rem;
-        top: -3.5rem;
 
+
+  
+   .pepole {
+        gap: 5rem;
+ /* background: #000; */
+ max-width: 90%;
     }
+
+.AllCards .container-cmnts .profile {
+    left: -2rem;
+    top: -2rem;
+    width: 4rem;
+}
+
+
+    .container-cmnts {
+
+
+        padding-bottom: 2rem;
+max-width: 100%;
+/* background: #000; */
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+    }
+.container-cmnts p{
+    /* background: #000; */
+    width: 100%;
+}
+
+
+
+
+
+    
+    
 }
 
 @media (max-width: 360px) {}

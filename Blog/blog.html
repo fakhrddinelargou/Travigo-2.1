@@ -1,53 +1,252 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="Styles/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <meta name="viewport" content="with=device-with, initial-scale=1.0" >
-        <title>Travigo - Blog</title>
-    </head>
-    <body>
-        <header>
-            <p>Travigo</p>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Destinations</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a style="color:#F1A501" href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">login</a></li>
-                    <li><a href="#">Sign Up</a></li>
-                    <li><a href="#">EN</a></li>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="/main.css">
+    <title>Blog</title>
+</head>
+<body>
+    <header class="head">
+        
+            <div class="logo">TRAVIGO</div>
+            <nav class="navbar">
+                <ul class="links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/destinations/destinations.html">Destinations</a></li>
+                    <li><a href="/about/about.html">About</a></li>
+                    <li><a href="/contact/contact.html">Contact</a></li>
+                    <li><a href="/Gallery/gallery.html">Gallery</a></li>
+                    <li><a href="/Blog/blog.html">Blog</a></li>
+                    <li><a href="/login/login.html" class="btn-login">Login</a></li>
+                    <li><a href="/sign-up/sign.html" class="btn-sign">Sign up</a></li>
+                    <li><a href="#">EN </a></li>
                 </ul>
             </nav>
+                <div class="menu">
+                <div onclick="openMenu()"  class="open">
+           <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                        d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
+                    </svg>
+             
+                </div>
+                <div onclick="openMenu()"  class="close hidden">
+                    
+
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                        d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z" />
+                    </svg>
+                
+                </div>
+                
+            </div>
+            
+            <!-- <img class="traveller"  src="/images/Traveller 1.png" alt="Traveller"> -->
+            
+            <!-- <img class="airplane1" src="/images/Group.svg" alt="airplane"> -->
+            <!-- <img class="airplane2" src="/images/Group.svg" alt="airplane"> -->
+            
+            
+            
         </header>
+    <main>
         <section class="into_blog">
             <div class="blog">
-                <p class="title_page">BLOG & NEWS</p>
-                <p class="title_main">Travel inspiration, advice and adventures</p>
+                <span class="title_page">BLOG & NEWS</span>
+                <h1 class="title_main">Travel inspiration, advice and adventures</h1>
                 <p class="parag">Discover our comprehensive articles, travel guides, and expert advice to help you plan your next unforgettable adventure.</p>
             </div>
         </section>
-        <section class="blog_news">
-            <div class="blog">
-                <p class="title_page">NEWS</p>
-                <p class="title">Latest travel news</p>
-                <p class="parag">Stay informed about the latest trends, new destinations and news from the world of tourism</p>
+        <section class="main_article">
+        <div class="article_element">
+            <div class="article_content">
+                <div class="article_label">Featured article</div>
+                <h2>The 10 must-see destinations in 2025</h2>
+                <p>From Tokyo to Lisbon, via the Greek islands, discover our selection of this year's most fascinating destinations. From heavenly beaches to majestic mountains and cosmopolitan cities.</p>
+                <a class="btn_read" href="blog_details.html">Read the article →</a>
+            </div>
+            <div class="article_image"></div>
+        </div>
+    </section>
+    <section class="article_card">
+        <div class="news_section">
+            <span class="title_page">NEWS</span>
+            <h3 class="title">Latest travel news</h3>
+            <p class="parag">Stay informed about the latest trends, new destinations and news from the world of tourism</p>
+        </div>
+        <section class="parent">
+            <div class="card">
+                <img src="/images/blog/article1.jpg" alt="">
+                <div class="text">
+                    <h3>New travel rules in Europe for 2025</h3>
+                    <p>
+                        The European Union has announced new regulations regarding international travel. Find out what's changing for your upcoming trips to Europe and how to prepare. 
+                    </p>
+                    <a href="artocle_detail_2.html" class="btn_read">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/blog/article4.jpg" alt="">
+                <div class="text">
+                    <h3>Sustainable tourism: trend of the year</h3>
+                    <p>
+                        More and more travelers are adopting eco-responsible practices. Focus on this green revolution that is transforming the global tourism industry.
+                    </p>
+                    <a class="btn_read" href="#">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/blog/article2.jpg" alt="">
+                <div class="text">
+                    <h3>New airlines to Asia open.</h3>
+                    <p>
+                        Several airlines are announcing the opening of new direct routes to popular Asian destinations. Traveling to Asia has never been more accessible.
+ 
+                    </p>
+                    <a class="btn_read" href="#">Read More →</a>
+                </div>
+            </div>
+            
+</section> 
+</section>
+    <section class="article_card">
+        <div class="news_section">
+            <span class="title_page">TRAVEL TIPS</span>
+            <h3 class="title">Our best practical advice</h3>
+            <p class="parag">Tips, guides and recommendations for traveling with peace of mind and making the most of your adventures</p>
+        </div>
+        <section class="parent">
+            <div class="card">
+                <img src="/images/blog/article3.jpg" alt="">
+                <div class="text">
+                    <h3>How to pack your perfect backpack</h3>
+                    <p>
+                        All our expert advice for optimizing your backpack. From clothing selection to essential gadgets, never leave home without the perfect equipment.
+
+                    </p>
+                    <a class="btn_read" href="#">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/blog/article5.jpg" alt="">
+                <div class="text">
+                    <h3>Travel budget: save money without sacrificing comfort</h3>
+                    <p>
+                        Discover our tips for reducing your travel expenses while still enjoying your trip to the fullest. Accommodation, transportation, and dining: all our tried-and-tested tips. 
+                    </p>
+                    <a class="btn_read" href="#">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/blog/article7.jpg" alt="">
+                <div class="text">
+                    <h3>Travel Insurance: What You Need to Know</h3>
+                    <p>
+                       A complete guide to choosing the right travel insurance. A comparison of offers, essential coverage, and pitfalls to avoid for peace of mind when traveling.
+                    </p>
+                    <a class="btn_read" href="#">Read More →</a>
+                </div>
             </div>
         </section>
-        <section class="news_article">
-            <div class="article_image">
-                <img src="Img/article1.jpg" alt="Image for Article 1: Plan">
+</section>
+<section class="article_card">
+        <div class="news_section">
+            <span class="title_page">INSPIRING ARTICLES</span>
+            <h3 class="title">Travel stories and tales</h3>
+            <p class="parag">Be inspired by authentic stories and unique experiences around the world</p>
+        </div>
+        <section class="parent">
+            <div class="card">
+                <img src="/images/blog/south.jpg" alt="">
+                <div class="text">
+                    <h3>6 months road trip across South America</h3>
+                    <p>
+                        From Venezuela to Patagonia, the moving story of a six-month journey across a fascinating continent. Unforgettable encounters, breathtaking landscapes, and remarkable cultural discoveries.
+                    </p>
+                    <a class="btn_read" href="#">read the story →</a>
+                </div>
             </div>
-            <div class="article_info">
-                <img src="Img/I_date.png" alt="Icon for Date">
-                <p>10 octobre 2025</p>
-                
+            <div class="card">
+                <img src="/images/blog/article6.jpg" alt="">
+                <div class="text">
+                    <h3>Live 3 months in Japan: total cultural immersion</h3>
+                    <p>
+Between Zen temples and ultra-modern megalopolises, the story of a deep immersion in Japanese culture. Traditions, gastronomy, spirituality: a transformative journey.
+                    </p>
+                    <a class="btn_read" href="#">read the story →</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/blog/article4.jpg" alt="">
+                <div class="text">
+                    <h3>Everest Base Camp Trek: 15 Days of Adventure</h3>
+                    <p>
+Underwater exploration of the world's largest coral reef. Exceptional biodiversity, incredible colors, and a thrilling exploration of the fragility of this unique ecosystem.
+                    </p>
+                    <a class="btn_read" href="#">Read More →</a>
+                </div>
             </div>
         </section>
-    </body>
+    </section>
+    </main>
+    <footer>
+        <div class="contacts">
+        <div class="logo-para"> 
+            <h3>Travigo.</h3>
+            <p>Book your trip in minute, get full
+                Control for much longer.
+            </p>
+        </div>
+        <div class="contact-about">
+            <h4>Company</h4>
+            <div>
+                <p>About</p>    
+                <p>Team</p>
+                <p>Mobile</p>
+            </div>
+        </div>
+            <div class="contact-about">
+            <h4>Contact</h4>
+            <div>
+
+                <p>Help/FAQ</p>
+                <p>Contact</p>
+                <p>Address</p>
+            </div>
+        </div>
+            <div class="contact-about">
+            <h4>More</h4>
+            <div>
+
+                <p>Flights</p>
+                <p>Hotels</p>
+                <p>Booking</p>
+            </div>
+        </div>
+        <div class="social-link">
+            <div class="social">
+                <div class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M240 363.3L240 576L356 576L356 363.3L442.5 363.3L460.5 265.5L356 265.5L356 230.9C356 179.2 376.3 159.4 428.7 159.4C445 159.4 458.1 159.8 465.7 160.6L465.7 71.9C451.4 68 416.4 64 396.2 64C289.3 64 240 114.5 240 223.4L240 265.5L174 265.5L174 363.3L240 363.3z"/></svg></div>
+                <div class="insta"><img src="/images/Social.png" alt=""></div>
+                <div class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M523.4 215.7C523.7 220.2 523.7 224.8 523.7 229.3C523.7 368 418.1 527.9 225.1 527.9C165.6 527.9 110.4 510.7 64 480.8C72.4 481.8 80.6 482.1 89.3 482.1C138.4 482.1 183.5 465.5 219.6 437.3C173.5 436.3 134.8 406.1 121.5 364.5C128 365.5 134.5 366.1 141.3 366.1C150.7 366.1 160.1 364.8 168.9 362.5C120.8 352.8 84.8 310.5 84.8 259.5L84.8 258.2C98.8 266 115 270.9 132.2 271.5C103.9 252.7 85.4 220.5 85.4 184.1C85.4 164.6 90.6 146.7 99.7 131.1C151.4 194.8 229 236.4 316.1 240.9C314.5 233.1 313.5 225 313.5 216.9C313.5 159.1 360.3 112 418.4 112C448.6 112 475.9 124.7 495.1 145.1C518.8 140.6 541.6 131.8 561.7 119.8C553.9 144.2 537.3 164.6 515.6 177.6C536.7 175.3 557.2 169.5 576 161.4C561.7 182.2 543.8 200.7 523.4 215.7z"/></svg></div>
+            </div>
+            <p>Discover our app</p>
+            <div class="stores">
+                <img src="/images/Google Play.svg" alt="">
+                <img src="/images/Play Store.svg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="copyright">All rights reserved@genZdevs.co</div>
+        <img class="shadow-d" src="/images/Decore.svg" alt="">
+    </footer>
+        <script src="/main.js"></script>
+</body>
 </html>
