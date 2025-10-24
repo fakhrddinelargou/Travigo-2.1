@@ -3,200 +3,108 @@
 
  }
 
- body {
-     background-image: url(../images/Decore.png);
-     background-repeat: no-repeat;
-     background-size: 75%;
-     background-position-y: top;
-     background-position-x: right;
+body {
+    background-image: url(../images/img_logiin/Decore.png);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: right;
+    /* overflow: hidden; */
+}
 
- }
-
- .img_femme {
-     background-repeat: no-repeat;
-     background-size: 50%
- }
  
 
 /* ------------------------------------------------------------------------------------------------ */
-/*  header */
-img {
-    position: absolute;
-    left: 35rem;
-}
-
-.logo {
-    top: 1rem;
-    font-size: bold;
-    font-size: 2rem;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.head {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header,
-.link,
-li {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    text-decoration: none;
-    padding: 1rem 2rem;
-}
-
-.links {
-    display: flex;
-    gap: 1rem;
-    color: rgb(5, 4, 4);
-    width: 100%;
-
-}
-
- /* ---------------------------------------------------------------------------
 /* /* main */
-
-h1 {
-    color: hsl(31, 83%, 56%);
-    margin-left: 10%;
+.a {
+  text-decoration: none;
 }
 
-.img_femme p {
-    margin-left: 11%;
+.bg-img{
+    position: absolute;
+    right: -45rem;
+    top: -5rem;
+    width: 55rem;
+}
+.img_femme p{
+    position: relative;
+    right:40rem;
+}
+.img_femme{
+    position: relative;
+    bottom: 5rem;
+
+}
+ h1 {
+    color:#DF6951;
+   font-size: 5rem;
+   position: relative;
+    right:40rem;
+   
 }
 .login{
      color: hsl(215, 71%, 58%);
+
 }
 .input {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    margin-top: 5%;
-    margin-left: 10%;
-}
-
-.email {
-    width: 20rem;
-    height: 2rem;
-    border-radius: 0.5rem;
-    background-color: FF926D;
-    border: 1px solid #3d3a3a;
-    background-color: rgb(250, 212, 165);
-    padding: 0.5rem;
-}
-
-.password {
-    width: 20rem;
-    height: 2rem;
-    border-radius: 0.5rem;
-    background-color: FF926D;
-    border: 1px solid #3d3a3a;
-    background-color: rgb(250, 212, 165);
-    padding: 0.5rem;
-}
-
-.input_login {
-    width: 20rem;
-    height: 2.5rem;
-    border-radius: 0.5rem;
-    border: 1px solid #3d3a3a;
-    background-color: hsl(36, 64%, 52%);
-    color: white;
-    padding: 0.5rem;
-}
-
-.input_create {
-    width: 20rem;
-    height: 2.5rem;
-    border-radius: 0.5rem;
-    border: 1px solid #3d3a3a;
-    background-color: hsl(60, 20%, 1%);
-    border: none;
-    color: white;
-    padding: 0.5rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* ------------------------------------------------------------------------------------------ */
-
-/* FOOTER */
-
-
-.footer>div:first-child {
-    display: flex;
-    gap: 20px;
-}
-
-.footer .travigo ul li {
-    list-style-type: none;
-}
-
-.footer img {
+    gap: 3rem;
     position: relative;
-    top: 2rem;
-    left: 2rem;
-}
-
-.paragraphe {
-    position:relative;
-    left:50%;
-}
-
-/* ----------------------------------------------------------------------------- */
-/* responsive */
-
-
-/*  header */
-@media (max-width:768px) {
-    img {
-        position: absolute;
-        left: 15rem;
-    }
-
-
-}
-
-
-
-/* main */
-.img_femme img {
+    right:40rem;
     
 }
-
-
-
-
-/* footer */
-@media (max-width:768px) {
-  .footer>div:first-child {
-    display: flex;
-    flex-direction: column;
- ;
+.input_sign_up {
+    background-color:#ff916d !important;
+    color: white;
 }
-.paragraphe {
-    display: flex;
-    justify-content: center;
+input , .input_sign_up {
+
+    width: 30rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(250, 212, 165, 0.316);
+    border: 1px solid #3d3a3a;
+    padding: 0 0.9rem ;
+    letter-spacing: .05rem;
 }
+.para1{
+    font-size: 10px;
+}
+
+footer{
+    position:relative;
+    top:50px;
+}
+/* ----------------------------------------------------------------------------------------
+ 
+/* responsive */
+@media (max-width: 768px){
+    *{
+        font-size: 10px;
+        
+    }
+    .bg-img{
+        display:none;
+    }
+    h1{
+        position : relative ;
+        left : 2rem;
+        font-size: 5vw;
+    }
+    .input{
+        position : relative ;
+        size:20rem;
+        left : 2rem;
+    }
+    .para1{
+         position : relative ;
+        left : 2rem;
+    }
+    body{
+        background-image: url(../images/img_logiin/Decore.png);
+        background-size: 50%;
+            background-position-y: top;
+    background-position-x: right;
+    }
 
 }

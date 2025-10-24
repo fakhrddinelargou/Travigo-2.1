@@ -1,0 +1,78 @@
+/* SECTION 3 */
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.third-section h5 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: var(--dark-orange);
+
+}
+
+.third-section .places .place div:not(:nth-child(2)) {
+    height: 1rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background: var(--dark-orange);
+
+}
+
+.third-section .places {
+
+    display: flex;
+    flex-direction: column;
+    border: solid .1rem #dabbb48c;
+    border-radius: 1rem;
+    background: #FFF1DA;
+    gap: 2rem;
+    padding: 2rem;
+    /* overflow: hidden; */
+}
+
+.third-section .places .box-place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.third-section .places .place {
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.third-section .places .place div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    background: var(--dark-orange);
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.47);
+    font-size: 1.6rem;
+
+}
+
+
+.cards {
+    width: 30rem;
+    border-radius: .5rem;
+    border: solid .1rem rgb(217, 208, 191);
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--paragraph-color);
+
+
+
+}
