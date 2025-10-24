@@ -36,154 +36,232 @@
 </head>
 
 <body class="about-body">
-      <header>
+    <header class="head">
 
-        <div class="head">
-            <div class="logo">TRAVIGO</div>
-            <nav class="navbar">
-                <ul class="links">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/destinations/destinations.html">Destinations</a></li>
-                    <li><a href="/about/about.html">About</a></li>
-                    <li><a href="/contact/contact.html">Contact</a></li>
-                    <li><button class="btn-login">Login</button></li>
-                    <li><button class="btn-sign">Sign up</button></li>
-                    <li><a href="#">EN </a></li>
-                </ul>
-            </nav>
-                <div class="menu">
-                <div onclick="openMenu()" class="open">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                        <path
-                            d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
-                    </svg>
-                </div>
-                <div onclick="openMenu()" class="close hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                        <path
-                            d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z" />
-                    </svg>
-                </div>
+        <div class="logo">TRAVIGO</div>
+        <nav class="navbar">
+            <ul class="links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/destinations/destinations.html">Destinations</a></li>
+                <li><a href="/about/about.html">About</a></li>
+                <li><a href="/contact/contact.html">Contact</a></li>
+                <li><a href="/contact/contact.html">Gallery</a></li>
+                <li><a href="/contact/contact.html">Blog</a></li>
+                <li><a href="#" class="btn-login">Login</a></li>
+                <li><a href="#" class="btn-sign">Sign up</a></li>
+                <li><a href="#">EN </a></li>
+            </ul>
+        </nav>
+        <div class="menu">
+            <div onclick="openMenu()" class="open">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                        d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
+                </svg>
+            </div>
+            <div onclick="openMenu()" class="close hidden">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                        d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z" />
+                </svg>
             </div>
         </div>
+
+
+
+
     </header>
-    
 
 
-    <section class="pepole">
-        <section>
-            <span class="sTit">TESTIMONIALS</span>
-            <h2>What people say
-                about Us.</h2>
+
+
+
+
+
+
+
+    <main class="section1">
+
+
+        <section class="pepole width">
+            <section class="what">
+                <span class="sTit">TESTIMONIALS</span>
+                <h2>What people say
+                    about Us.</h2>
                 <div class="points">
                     <div class="point"></div>
                     <div class="point"></div>
                     <div class="point"></div>
                 </div>
+            </section>
+            <section class="AllCards">
+                <section class="container-cmnts">
+
+                    <img class="profile" src="/images/Image.png" alt="profile">
+                    <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as
+                        knew
+                        next. Of believed or diverted no.”</p>
+                    <div>Mike taylor</div>
+                    <span>Lahore, Pakistan</span>
+                </section>
+            </section>
         </section>
-        <section class="AllCards">
-<section class="container-cmnts">
 
-<img class="profile" src="/images/Image.png" alt="profile">
-<p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
-<div>Mike taylor</div>
-<span>Lahore, Pakistan</span>
-</section>
-           <div class="btns">
-            <div class="button " id="top"><img src="/images/keyboard_control_key_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""></div>
-            <div class="button " id="bottom"><img src="/images/stat_minus_1_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""></div>
-           </div>
+        <section class="about1 width">
+            <div class="pargraphe1">
+                <p>Our company offers numerous services to <br> ensure your ongoing satisfaction. As a <br>result, we
+                    increase our
+                    promotional travel <br>offers every year.</p>
+            </div>
+            <div>
+                <h2 class="weoffer">About our company</h2>
+                <img class="fleche" src="/images/about/fleche.png" alt="fleche">
+            </div>
         </section>
-    </section>
+
+        <section class="about2 width">
+            <div>
+                <h2 class="weoffer">This year's offers </h2>
+                <img class="fleche" src="/images/about/fleche2.png" alt="fleche">
+            </div>
+            <div class="pargraphe2">
+                <p>These offers also include discounts on meal<br>budgets and hotel rates.</p>
+            </div>
+        </section>
+
+        <section class="foodhotel width">
+            <h3 class="category">HOTELS</h3>
+            <div class="hotelfoods width" >
+                
+                    <div class="localprix">
+                        <img src="/images/about/about1.png" alt="image">
+                        <div>
+                            <p>morroco, marrakech <span class="ancienprix">$5,42k</span> <span
+                                    class="noubeauprix">$2,99k</span></p>
+                        </div>
+                    
+                </div>
+
+                
+                    <div class="localprix">
+                        <img src="/images/about/about2.png" alt="image">
+                        <div>
+                            <p>morroco, marrakech <span class="ancienprix">$5,42k</span> <span
+                                    class="noubeauprix">$2,99k</span></p>
+                        </div>
+                    </div>
+                
+
+                
+                    <div class="localprix">
+                        <img src="/images/about/about3.png" alt="image">
+                        <div>
+                            <p>morroco, marrakech <span class="ancienprix">$5,42k</span> <span
+                                    class="noubeauprix">$2,99k</span></p>
+                        </div>
+                    </div>
+                
+            </div>
+
+            <img style="width: 9.7rem; margin-bottom:5.2rem;" class="iconhf" src="/images/about/about10.png" alt="icon">
+            <h3 class="category">FOODS</h3>
+
+            <div class="hotelfoods width">
+                <div>
+                    <div class="localprix">
+                        <img src="/images/about/about4.png" alt="image">
+                        <div>
+                            <p>morroco, marrakech <span class="ancienprix">$1,42k</span> <span
+                                    class="noubeauprix">$0,99k</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="localprix">
+                        <img src="/images/about/about5.png" alt="image">
+                        <div>
+                            <p>morroco, marrakech <span class="ancienprix">$1,42k</span> <span
+                                    class="noubeauprix">$0,99k</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="localprix">
+                        <img src="/images/about/about6.png" alt="image">
+                        <div>
+                            <p>morroco, marrakech <span class="ancienprix">$1,42k</span> <span
+                                    class="noubeauprix">$0,99k</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img style="width: 9.7rem; margin-bottom:5.2rem;" class="iconhf" src="/images/about/about10.png" alt="icon">
+
+        </section>
+
+        <section class="team">
+            <h2  class="weoffer">Our Team</h2>
+            <div class="image">
+                <div class="ourteam" id="Khawla">
+                    <div>
+                        <h3>Khawla</h3>
+                        <p>Traductrice | Spécialiste SEO</p>
+                    </div>
+                </div>
+                <div class="ourteam" id="Abderahmane">
+                    <div>
+                        <h3>Abderahmane</h3>
+                        <p>Gestionnaire de projet web</p>
+                    </div>
+                </div>
+                <div class="ourteam" id="Fakherdinne">
+                    <div>
+                        <h3>Fakherdinne</h3>
+                        <p>Responsable du pole SEO/Specialiste SEO</p>
+                    </div>
+                </div>
+                <div class="ourteam" id="Mohamed">
+                    <div>
+                        <h3>Mohamed</h3>
+                        <p>Développeur web/desing</p>
+                    </div>
+                </div>
+                <div class="ourteam" id="Mehdi">
+                    <div>
+                        <h3>EL Mehdi</h3>
+                        <p>Gestionnaire de projet marketing web</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
 
 
-    <section class="about-offer-mission">
-            <section class="tom">
 
-<h4>
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="25"
-  height="25"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="#212832"
-  stroke-width="1.55"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 18v-6a6 6 0 0 1 6 -6h2a6 6 0 0 1 6 6v6a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3z" />
-  <path d="M10 6v-1a2 2 0 1 1 4 0v1" />
-  <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
-  <path d="M11 10h2" />
-</svg>
-About Travigo :</h4>
-<p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
 
-</section>
-    <section class="tom">
 
-<h4>
-<!--
-tags: [crypto, bitcoin, mining, digital, cryptocurrency]
-category: Currencies
-unicode: "f4a1"
-version: "1.96"
--->
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="25"
-  height="25"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="#212832"
-  stroke-width="1.55"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M4 18h12l4 -4h-12z" />
-  <path d="M8 14l-4 -4h12l4 4" />
-  <path d="M16 10l4 -4h-12l-4 4" />
-</svg>
-What We Offer :</h4>
-<p>Custom travel packages <br>
-Affordable flight & hotel deals <br>
-Local guided tours and activities <br>
-24/7 support for a smooth travel experience</p>
 
-</section>
-    <section class="tom">
 
-<h4>
-<!--
-tags: [authorisation, permission, consent, permit, document, agree]
-version: "1.5"
-unicode: "ebc0"
--->
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="25"
-  height="25"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="#212832"
-  stroke-width="1.55"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" />
-  <path d="M9 7l4 0" />
-  <path d="M9 11l4 0" />
-</svg>
 
- Our Mission : </h4>
-<p>To make travel simple, inspiring, and accessible for everyone — with smart planning and real passion for exploration.</p>
 
-</section>
-    </section>
+
+
+
+
+
+
+
+
 
 
 
@@ -196,7 +274,7 @@ unicode: "ebc0"
             <img src="/images/image 30.svg" alt="">
             <img src="/images/image 31.svg" alt="">
         </div>
-          <div aria-hidden class="brand">
+        <div aria-hidden class="brand">
             <img src="/images/image 27.svg" alt="">
             <img src="/images/image 28.svg" alt="">
             <img src="/images/image 29.svg" alt="">
@@ -204,6 +282,12 @@ unicode: "ebc0"
             <img src="/images/image 31.svg" alt="">
         </div>
     </section>
+
+
+
+
+
+
 
 
     <footer>

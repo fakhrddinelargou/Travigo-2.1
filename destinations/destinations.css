@@ -13,11 +13,14 @@
 
 } */
 
-.destination-body {
+/* MAIN */
+main{
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 15rem;
+    margin-bottom: 15rem ;
 }
+
 
 /* destinaction morocco */
 
@@ -51,31 +54,32 @@
     align-items: center;
     justify-content: center;
     gap: 5.6rem;
+    margin: auto;
+  
 
 }
-
+.place a{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
 .mar-place .place {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-
     place-items: center;
-    z-index: -1;
 }
 
 .mar-place .place .bg-img {
     position: relative;
     width: 45rem;
-
     height: 67.3rem;
     display: flex;
     align-items: end;
-
+ cursor: pointer ;
 }
 
 .mar-place h2 {
-
-
     text-align: center;
 }
 
@@ -97,7 +101,7 @@
 
 .td {
     min-width: 90%;
-
+   /* margin-bottom: 15rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,7 +184,7 @@
 .container-book {
     
     min-width: 90%;
-  
+  /* margin-bottom: 15rem; */
     display: flex;
     justify-content: center;
     /* gap: 10rem; */
@@ -202,14 +206,12 @@
 
 }
 
-
-
 .book .opt {
 
 
     display: flex;
     align-items: start;
-    justify-content: center;
+   
     gap: 2.1rem;
     font-size: 1.6rem;
     color: var(--paragraph-color);
@@ -299,9 +301,49 @@
         grid-template-rows: 1fr;
 
     }
+
+
+    .book .opts {
+width: 90%;
+}
+
+
+.book{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.book h2{
+    text-align: center;
+
+}
+
+
+.book .opt h4 {
+    font-weight: bold;
+    display: inline;
+
+}
+
+.book .opt p {
+    width: 100%;
+}
+
+    
 }
 
 @media (max-width: 480px) {
+
+.mar-place .place {
+
+    gap: 0rem;
+ 
+}
+
+
     .mar-place .place div img {
         width: 100%;
     }
@@ -342,11 +384,19 @@ max-width: 90%;
     
 }
 
-.mar-place .place .bg-img {
+/* .mar-place .place .bg-img {
    
     width: 100%;
 
+} */
+
+.place a{
+  width: 100%;  
 }
+.mar-place .place .bg-img {
+    width: 100%;
+}
+
 .card-2 {
 
    padding-right: 3rem;
